@@ -7,14 +7,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <link rel="shortcut icon" href="./img/4F.jpg" type="image/x-icon">
+    <title>F4Bank</title>
+
+    <!-- Código encontrado na internet para remover as setinhas do input do tipo numer -->
+    <style>
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+    </style>
+    <!-- Código encontrado na internet para remover as setinhas do input do tipo numer -->
 </head>
 
-<body>
-    <header>
 
+<body>
+    <header class="flex">
+        <div class="f4-acesso">
+            <H1 class="f4bank"><span id="f4">F4</span>Bank</H1>
+            <div class="acesso">
+                <div class="acesso-container">
+                    <label for="agencia" class="acesso-texto">Agencia:</label>
+                    <input type="number" name="agencia" id="agencia" placeholder="0000" min="1" max="9999">
+                </div>
+                <div>
+                    <label for="conta" class="acesso-texto">Conta:</label>
+                    <input type="number" name="conta" id="conta" placeholder="000000" min="1" max="999999">
+                </div>
+                <div>
+                    <label for="digito" class="acesso-texto">Dígito</label>
+                    <input type="number" name="digito" id="digito" placeholder="0" min="0" max="9">
+                </div>
+                <div>
+                    <form action="#">
+                        <button id="acessar" type="submit">Acessar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <ul class="navegacao">
+                <li><a href="#conta-digital-link">Conta Digital</a></li>
+                <li><a href="#">Cartão de Crédito</a></li>
+                <li><a href="#quem-somos-link">Quem Somos</a></li>
+                <li><a href="#siga">Contato</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
+      
+<!--inicio do codigo da helen-->
+      
         <section class="cartao-de-credito">
             <div class="container-mulher-texto">
                     <img src="../imagens/mulher-fundo-laranja.jpg">
@@ -46,10 +94,88 @@
                         <button class="saiba-mais"><br>Saiba mais</button>
                         </p>
                  </div>
+      </section>
+<!--Fim do cógigo da hellen    -->
+
+        <section class="conta-digital">
+            <h2 id="conta-digital-link">Conta Digital</h2>
+            <div class="conta-digital-container">
+                <img src="./img/tablet.webp" alt="null">
+                <p>A conta digital é uma conta totalmente gratuita em que você pode abrir e movimenta-la de forma fácil
+                    e ágil direto do seu smartphone, desktop ou navegador. Ela possui todas as funcionalidades de uma
+                    conta convecional. Você nunca precisará vir até nossa agência pois nós sempre estaremos como você,
+                    no
+                    seu app. Venha para o mundo digial. Venha para a <span>F4.</span></p>
+            </div>
+        </section>
+        <section class="quem-somos">
+            <h2 id="quem-somos-link">
+                <p>Quem Somos</p>
+            </h2>
+            <div class="quem-somos-container">
+                <p>Nós somos o mesmo banco F4 que você já conhçe. Estamos a mais de 50 anos no mercado e temos a
+                    confiança de mais de 50 milhões de Brasileiros. Agora estamos presente também no Mundo Digital,
+                    ofereçendo nossos serviços com a mesma qualidade e segurança que você já conheçe. Venha para o mundo
+                    digial. Venha para a F4.</p>
+                <img src="./img/f4bank.png" alt="Logo do bank F4">
+            </div> 
         </section>
     </main>
     <footer>
-
+        <div class="footer-colunas">
+            <p role="gridcell" id="contato">Fale com gente </p>
+            <ul>
+                <li class="telefones">
+                    <p>Capitais e regiões metropolitanas</p>
+                    <a href="tel:7018 6090">7018 6090</a>
+                </li>
+                <li class="telefones">
+                    <p>Demais Localidades</p>
+                    <a href="tel:0800 520 0003">0800 520 0003</a>
+                </li>
+                <li class="telefones">
+                    <p>Ouvudoria</p>
+                    <a href="tel:0800 720 3600">0800 720 3600</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-colunas">
+            <ul>
+                <p id="siga">Siga o <span style="color: white;">F4</span></p>
+                <div class="rede-sociais-linha">
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank"><img class="icone"
+                                src="./img/instagran.png" alt="Icone do instragran">
+                            <p>Instagran</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://pt-br.facebook.com/" target="_blank"><img class="icone" src="./img/face.png"
+                                alt="Icone do facebook">
+                            <p>facebook</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/" target="_blank"><img class="icone" src="./img/twiter.png"
+                                alt="Icone do youtube">
+                            <p>twitter</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/" target="_blank"><img class="icone" src="./img/youtube.png"
+                                alt="Icone do youtube">
+                            <p>YouTube</p>
+                        </a>
+                    </li>
+                </div>
+            </ul>
+        </div>
+        <div class="footer-colunas">
+            <p class="endereco">R. Pais Leme, 215<br>
+                Conjunto 820<br>
+                Pinheiros</p>
+            <p class="endereco">CEP 05424-150</p>
+        </div>
     </footer>
 </body>
 
