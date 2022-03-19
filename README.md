@@ -14,9 +14,10 @@ Helen Caroline -gitHub https://github.com/future4code/silveira-Helen-Pereira
 A página pode ser acessada através do link:
 [F4Bank](Labenu-LandigPage5.surge.sh)
 
-<img src="./img/f41.png" height="350" width="350" align="center">
-<img src="./img/f42.png" height="350" width="350" align="center">
-
+<p align="center">
+    <img src="./Projeto Landing Page/img/f41.png" height="650" width="550" >
+    <img src="./Projeto Landing Page/img/f42.png" height="650" width="500" >
+</p>
 
 
 
