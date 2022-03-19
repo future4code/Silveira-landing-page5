@@ -12,11 +12,11 @@ Adeir Moreira - gitHub https://github.com/future4code/silveira-Adeir-Maia <br>
 Helen Caroline -gitHub https://github.com/future4code/silveira-Helen-Pereira
 
 A página pode ser acessada através do link:
-[F4Bank](Labenu-LandigPage5.surge.sh)
+[F4Bank](https://labenu-landigpage5.surge.sh/)
 
 <p align="center">
-    <img src="./Projeto Landing Page/img/f41.png" height="650" width="550" >
-    <img src="./Projeto Landing Page/img/f42.png" height="650" width="500" >
+    <img src="./Projeto Landing Page/img/f41.png">
+    <img src="./Projeto Landing Page/img/f42.png">
 </p>
 
 
