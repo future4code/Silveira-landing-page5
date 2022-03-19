@@ -17,7 +17,7 @@ body {
 }
 header {
     flex-grow: 0 ;
-    background: linear-gradient(90deg, rgb(255,145,77), rgb(255,189,89));
+    background: linear-gradient(90deg, rgb(243, 112, 33), rgb(255,189,89));
 }
 .flex {
     display: flex;
@@ -41,14 +41,14 @@ header {
 }
 .navegacao {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px, auto));
+    grid-template-columns: repeat(auto-fit,minmax(300px, auto));
     text-align: center;
 }
 .navegacao li {
     padding: 10px 0;
 }
 .navegacao li a {
-    font-size: 25px;
+    font-size: 40px;
     color: aliceblue;
 }
 .navegacao li a:hover {
@@ -89,9 +89,6 @@ header {
 #acessar:hover {
     background-color: darkgray;
 }
-
-
-   
 main {
     flex-grow: 1;
     padding: 0;
@@ -100,25 +97,20 @@ main {
     
 }
 
-
 /*começo do código da helen*/
 
 .container-mulher-texto{
     background-color:rgb(243, 112, 33) ;
     display: flex;
     flex-wrap: wrap;
-    margin: 10px 10px 0px 10px;
+    margin: 0px 10px 0px 10px;
     justify-content: center;
-  
-    
-
 }
 
 .container-mulher-texto img{
     max-width: 600px;
     min-width: 200px;
     margin: 0px 0px 0px 0px;
-    
 }
 
 .container-mulher-texto p{
@@ -126,69 +118,43 @@ margin: 10px 0px 0px 0px ;
 color: rgb(244, 248, 244);
 font-family: 'Rubik', sans-serif;
 font-size: 40px;
-
-
 }
- #div-direita {
-     background-color: rgb(243, 112, 33 );
-   padding: 10px;
-     
- }
-
-
-
-
-
-
-
+#div-direita {
+    background-color: rgb(243, 112, 33 );
+    padding: 10px;
+}
 .dados-do-cliente  {
     display: inline;
     height: 400px;
     width: 350px;
-   
     max-width: 300px;
     min-width: 200px;
-    
-  
 }
 
 .peca-seu-cartao {
-     margin-top: 150px;
+    margin-top: 150px;
     margin: 100px 0px 0px 0px;
     text-align: center;
     color: rgb(8, 8, 8);
     font-family: 'Rubik', sans-serif;
     
 }
- 
-
 #container-dados {
-
-
-   position: relative;
-   color: aliceblue;
+    position: relative;
+    color: aliceblue;
 }
     
 #container-dados img{
     width: 100%;
     border-radius: 10%;
 }
- 
-
-
-
 .texto {
 max-width: 400px;
 min-height: 300px;
 margin-top: 15px;
 font-size: 16px;
 }
-
-
-
-
- 
-input {
+.peca-seu-cartao input {
     width: 200px;
     border-top: none;
     border-left: none;
@@ -197,27 +163,20 @@ input {
     margin-top: 50px;
 
 }
- .digite-cpf {
-     font-family: Arial, Helvetica, sans-serif;
-     width: 25px;
-     margin-top: 100px;
-     
-     
- }
+.digite-cpf {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 25px;
+    margin-top: 100px;
+}
 
- .botao{
-     width: 80px;
-     height: 30px;
-     margin-left: 200px;
-     margin-top: 15px;
-     
-     
-     
-    
- }
+.botao{
+    width: 80px;
+    height: 30px;
+    margin-left: 200px;
+    margin-top: 15px;
+}
 
- .container-texto-logo {
-    
+.container-texto-logo {
     display: flex;
     flex-wrap: wrap ;
     min-width: 250px;
@@ -225,63 +184,58 @@ input {
     margin-top: 20px;
     margin-bottom: 100px;
     background-color: rgb(247, 145, 77);
+}
+.container-texto-logo > img{
+    width: 300px;
+    min-width: 200px;
+    margin-left: 100px;
+    border-radius: 20%;
+}
+.cartao {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: aliceblue;
+    margin-left: 200px;
     
-    
-   
- }
-
- .container-texto-logo > img{
-     width: 300px;
-     min-width: 200px;
-     margin-left: 100px;
-     border-radius: 20%;
-     
-
- }
-
- 
-     
- 
-  .cartao {
-     font-family: Arial, Helvetica, sans-serif;
-     text-align: center;
-     margin-top: 20px;
-     margin-bottom: 30px;
-     color: aliceblue;
-     margin-left: 200px;
-    
- }
- 
- .cartao > h2{
-     
+}
+.cartao > h2{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin-bottom: 80px;
     color: aliceblue;
     margin-left: 50px;
- }
+}
 
- .paragrafo{
-     margin-left: 40px;
-     margin-bottom: 10px;
-     font-size: large;
-     font-family: Arial, Helvetica, sans-serif;
-     color: aliceblue;
- }
- button.saiba-mais {
-     
-     font-size: 17px;
-     border-top: none;
-     border-left: none;
-     border-right: none;
-     margin-top: 20px;
-     color: rgb(247, 251, 253);
-     background-color: rgb(247, 145, 77);
-    
-    
- }
-
+.paragrafo{
+    margin-left: 40px;
+    margin-bottom: 10px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+button.saiba-mais {
+    font-size: 17px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 20px;
+    color: rgb(247, 251, 253);
+    background-color: rgb(247, 145, 77);
+}
 /*fim do código da hellen*/
+#cartao-de-credito-link {
+    font-size: 60px;
+    text-align: center;
+    padding: 100px 0px 100px;
+    color: aliceblue;
+    font-family: 'Rubik', sans-serif;
+}
+.cartao-de-credito-h2 {
+    background-color: rgb(243, 112, 33);
+    margin: 10px 10px 0px 10px ;
+}
 
 .conta-digital, .quem-somos {
     margin: 100px 50px 100px 50px;
@@ -312,7 +266,7 @@ input {
 }
 footer {
     flex-grow: 0;
-    background: linear-gradient(90deg, rgb(255,189,89), rgb(255,145,77));
+    background: linear-gradient(90deg, rgb(255,189,89), rgb(243, 112, 33));
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(200px, auto));
     
