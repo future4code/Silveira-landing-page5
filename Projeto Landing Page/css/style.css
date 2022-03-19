@@ -21,17 +21,22 @@ header {
     padding: 10px 0 10px;
 }
 .f4bank {
-    font-size: 50px;
+    font-size: 70px;
     color: aliceblue;
     margin: 0 auto;
 }
 #f4 {
     color: black;
     font-weight: bold;
+    align-self: center;
+}
+.f4-acesso {
+    display: flex;
+
 }
 .navegacao {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px, auto));
+    grid-template-columns: repeat(auto-fit,minmax(200px, auto));
     text-align: center;
 }
 .navegacao li {
@@ -44,9 +49,71 @@ header {
 .navegacao li a:hover {
     color: black;
 }
+.acesso {
+    position: absolute;
+    right: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    gap: 10px;
+    margin-top: 20px;
+}
+#agencia {
+    width: 40px;
+}
+.acesso-texto {
+    font-size: 18px;
+    font-weight: 700;
+
+}
+#conta {
+    width: 55px;
+}
+#digito {
+    width: 20px;
+}
+#acessar {
+    color: black;
+    width: 100px;
+    font-size: 20px;
+    border: 2px solid black;
+    font-weight: bold;
+    background-color: aliceblue;
+    margin-left: 20px;
+}
+#acessar:hover {
+    background-color: darkgray;
+}
 main {
     flex-grow: 1;
     
+}
+.conta-digital, .quem-somos {
+    margin: 100px 50px 100px 50px;
+    font-family: 'Rubik', sans-serif;
+}
+:is(.conta-digital, .quem-somos) h2 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.conta-digital-container, .quem-somos-container {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 60px;
+}
+:is(.conta-digital-container, .quem-somos-container) img{
+    min-width: 200px;
+    max-width: 500px;
+    border-radius: 5%;
+}
+:is(.conta-digital-container, .quem-somos-container) p {
+    font-weight: bold;
+    font-size: 30px;
+    min-width: 200px;
+    max-width: 500px;
 }
 footer {
     flex-grow: 0;
@@ -76,10 +143,12 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    gap: 10px;
 }
 .rede-sociais-linha p {
     color: aliceblue;
     font-size: 25px;
+    
 }
 .icone {
     width: 30px;
@@ -88,4 +157,19 @@ footer {
 .endereco {
     color: black;
     font-size: 20px;
+}
+@media screen and (min-device-width : 120px) and (max-device-width : 1300px) { 
+    /* celulares */ 
+    .acesso {
+    position: relative;
+    right: auto;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0 20px;
+    }
+    .f4-acesso {
+        flex-flow: column;
+    }
 }
