@@ -1,3 +1,7 @@
+
+    
+    
+
 *{
     padding: 0;
     margin: 0;
@@ -9,15 +13,217 @@ body {
     height: 100vh;
     display: flex;
     flex-flow: column;
+    
 }
 header {
     flex-grow: 0 ;
+    padding: 20px;
+    background-color: blue;
 }
+
+
+   
 main {
     flex-grow: 1;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
     
 }
+
+
+.cartao-de-credito {
+    /*container que segura toda seção cartão de credito*/
+    
+}
+
+.container-mulher-texto{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 10px 0px 10px;
+    justify-content: center;
+  
+    
+
+}
+
+.container-mulher-texto img{
+    max-width: 600px;
+    min-width: 200px;
+    margin: 0px 0px 0px 0px;
+    
+}
+
+.container-mulher-texto p{
+margin: 10px 0px 0px 0px ;
+color: rgb(244, 248, 244);
+font-family: 'Rubik', sans-serif;
+font-size: 40px;
+
+
+}
+ #div-direita {
+     background-color: rgb(243, 112, 33 );
+   padding: 10px;
+     
+ }
+
+
+
+
+
+
+
+.dados-do-cliente  {
+    display: inline;
+    height: 400px;
+    width: 350px;
+   
+    max-width: 300px;
+    min-width: 200px;
+    
+  
+}
+
+.peca-seu-cartao {
+     margin-top: 150px;
+    margin: 100px 0px 0px 0px;
+    text-align: center;
+    color: rgb(8, 8, 8);
+    font-family: 'Rubik', sans-serif;
+    
+}
+ 
+
+#container-dados {
+
+
+   position: relative;
+   color: aliceblue;
+}
+    
+#container-dados img{
+    width: 100%;
+    border-radius: 10%;
+}
+ 
+
+
+
+.texto {
+max-width: 400px;
+min-height: 300px;
+margin-top: 15px;
+font-size: 16px;
+}
+
+
+
+
+ 
+input {
+    width: 200px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    margin-top: 50px;
+
+}
+ .digite-cpf {
+     font-family: Arial, Helvetica, sans-serif;
+     width: 25px;
+     margin-top: 100px;
+     
+     
+ }
+
+ .botao{
+     width: 80px;
+     height: 30px;
+     margin-left: 200px;
+     margin-top: 15px;
+     
+     
+     
+    
+ }
+
+ .container-texto-logo {
+    
+    display: flex;
+    flex-wrap: wrap ;
+    min-width: 250px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background-color: rgb(247, 145, 77);
+    
+    
+   
+ }
+
+ .container-texto-logo > img{
+     width: 300px;
+     min-width: 200px;
+     margin-left: 100px;
+     border-radius: 20%;
+     
+
+ }
+
+ 
+     
+ 
+  .cartao {
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     margin-top: 20px;
+     margin-bottom: 30px;
+     color: aliceblue;
+     margin-left: 200px;
+    
+ }
+ 
+ .cartao > h2{
+     
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 80px;
+    color: aliceblue;
+    margin-left: 50px;
+ }
+
+ .paragrafo{
+     margin-left: 40px;
+     margin-bottom: 10px;
+     font-size: large;
+     font-family: Arial, Helvetica, sans-serif;
+     color: aliceblue;
+ }
+ button.saiba-mais {
+     
+     font-size: 17px;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     margin-top: 20px;
+     color: rgb(247, 251, 253);
+     background-color: rgb(247, 145, 77);
+    
+    
+ }
+
+
+ 
 footer {
     flex-grow: 0;
+    padding: 20px;
+    background-color: aqua;
     
+}
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .cartao >h2 {
+        
+    }
 }
