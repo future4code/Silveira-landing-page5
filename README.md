@@ -1,6 +1,6 @@
 # landing-page-template
 
-###### __Landing Page F4Bank__
+# __Landing Page F4Bank__
 
 Projeto de uma Landing Page de um banco fictício feito em grupo durante o curso de Desenvoler Full Stack Labenu.
 
