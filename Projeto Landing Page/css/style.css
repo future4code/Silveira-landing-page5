@@ -38,6 +38,7 @@ main {
 }
 
 .container-mulher-texto{
+    background-color:rgb(243, 112, 33) ;
     display: flex;
     flex-wrap: wrap;
     margin: 10px 10px 0px 10px;
